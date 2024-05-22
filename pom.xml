@@ -1280,6 +1280,11 @@
                     </executions>
                     <dependencies>
                         <dependency>
+                            <groupId>org.eclipse.jetty.aggregate</groupId>
+                            <artifactId>jetty-all</artifactId>
+                            <version>9.4.50.v20221201</version>
+                        </dependency>
+                        <dependency>
                             <groupId>org.apache.storm</groupId>
                             <artifactId>storm-checkstyle</artifactId>
                             <version>${project.version}</version>
